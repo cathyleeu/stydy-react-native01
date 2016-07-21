@@ -6,7 +6,8 @@ import {
   Text,
   View,
   ListView,
-  Image
+  Image,
+  TouchableHighlight
 } from 'react-native';
 import Crypto from 'crypto-js'
 
@@ -80,7 +81,7 @@ class DashBoard extends Component {
         />
       )
   }
-  // 이것은 네비게이션을 푸시해서 -> 디테일을 보여 주도록 한다. 
+  // 이것은 네비게이션을 푸시해서 -> 디테일을 보여 주도록 한다.
   //passProps -> 디테일 뷰에서 설정해준 route passProps이다
   onComicPressed(comic){
     this.props.navigator.push({

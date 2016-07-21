@@ -38,7 +38,7 @@ const NaviMap = {
           navigator.pop();
         }
       }}>
-        <Text style={{marginTop:10, marginLeft:20, color:'#007AFF'}}> 뭘 뛰운다는 겨? </Text>
+        <Text style={{marginTop:10, marginLeft:20, color:'#007AFF'}}> 뒤로 </Text>
       </TouchableHighlight>
     );
   },
